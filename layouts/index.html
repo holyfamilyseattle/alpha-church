@@ -72,13 +72,6 @@
 
 				</section>
 
-			{{ "<!-- CTA -->" | safeHTML }}
-				<section id="cta"><a name="call-to-action"></a>
 
-					<h2>{{ .Params.CTA.heading}}</h2>
-					<p>{{ .Params.CTA.message}}</p>
-					{{ partial "contact" .}}
-
-				</section>
 {{ partialCached "footer" . }}
 {{ partial "scripts" . }}
