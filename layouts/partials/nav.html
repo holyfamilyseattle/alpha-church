@@ -3,10 +3,15 @@
     <header id="header" {{ if .IsHome }} class="alt" {{ end }} >
 
       <h1>
+<<<<<<< HEAD
           <a href="/">
               <img src= {{ .Site.Params.nav.image }} width="50" height="50">
               {{ .Site.Params.title }}
           </a>
+=======
+          <img src={{ .Site.Params.Nav.Image }} width="50" height="50">
+          <a href="/">{{ .Site.Params.title }}</a>
+>>>>>>> cdc1e1e7ea633b79594c75c55833ed4749fb22d7
       </h1>
 
       {{ "<!-- Nav -->" | safeHTML }}
