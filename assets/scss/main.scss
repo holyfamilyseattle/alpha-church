@@ -151,6 +151,10 @@
 		}
 	}
 
+	img {
+		vertical-align: text-top;
+	}
+
 	strong, b {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
