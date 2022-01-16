@@ -12,4 +12,6 @@ Error.log
 .trashes
 .data
 .config
+.idea/
+.hugo_build.lock
 *~
