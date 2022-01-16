@@ -2,8 +2,10 @@
   <div id="page-wrapper">
     <header id="header" {{ if .IsHome }} class="alt" {{ end }} >
 
-      <h1><img src={{ .Site.Params.NavImage.Med }} >
-          <a href="/">{{ .Site.Params.title }}</a></h1>
+      <h1>
+          <img src={{ .Site.Params.Nav.Image }} width="24" height="24">
+          <a href="/">{{ .Site.Params.title }}</a>
+      </h1>
 
       {{ "<!-- Nav -->" | safeHTML }}
       <nav id="nav">
